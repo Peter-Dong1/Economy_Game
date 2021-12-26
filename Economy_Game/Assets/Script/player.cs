@@ -4,13 +4,13 @@ using UnityEngine;
 
 public class player : MonoBehaviour
 {
-    [SerializeField] private float moveSpeed = 10.0f;
+    [SerializeField] private float moveSpeed = 10.0F;
 
-    [SerializeField] private float horizontal = 0.0f;
+    [SerializeField] private float horizontal = 0.0F;
 
-    [SerializeField] private float vertical = 0.0f;
+    [SerializeField] private float vertical = 0.0F;
 
-    [SerializeField] private float limiter = 0.71f;
+    [SerializeField] private float limiter = 0.71F;
 
     private Rigidbody2D rb;
 
